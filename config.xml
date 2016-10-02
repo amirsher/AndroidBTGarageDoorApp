@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget
    id="com.amirsher.www"
-   version="0.0.1"   
+   version="0.0.2"   
    xmlns="http://www.w3.org/ns/widgets"
    xmlns:gap="http://phonegap.com/ns/1.0">
 
@@ -10,7 +10,7 @@
 <author email="amirsher@amirsher.com" href="http://www.amirsher.com"> Amir Sher </author>
 <content src="index.html" />
 <icon src="icon.png" />
-<plugin name="cordova-plugin-bluetooth-serial" spec="0.4.5" source="npm" />
+<plugin name="cordova-plugin-bluetooth-serial" spec="0.4.6" source="npm" />
 
 <access origin="*" /> <allow-intent href="http://*/*" />
 <allow-intent href="https://*/*" />
