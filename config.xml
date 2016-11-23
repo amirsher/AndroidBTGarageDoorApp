@@ -12,7 +12,8 @@
 <icon src="icon.png" />
 <plugin name="cordova-plugin-bluetooth-serial" spec="0.4.6" source="npm" />
 
-<access origin="*" /> <allow-intent href="http://*/*" />
+<access origin="*" /> 
+<allow-intent href="http://*/*" />
 <allow-intent href="https://*/*" />
 
 <platform name="android">
