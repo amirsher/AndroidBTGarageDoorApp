@@ -1,4 +1,5 @@
 var macAddress = "B8:27:EB:D2:A8:4B";
+//var macAddress = "43:43:A1:12:1F:AC";
 
 var app = {
     initialize: function() {
@@ -10,6 +11,7 @@ var app = {
     onDeviceReady: function() {
         bluetoothSerial.connect(macAddress, app.onConnect, app.onDisconnect);
         refreshButton.ontouchstart = app.onDeviceReady;
+        statusDiv.innerHTML="<p class='white'>Connecting...</p>";        
     },
     onConnect: function() {
         bluetoothSerial.subscribe("\n", app.onMessage, app.subscribeFailed);
